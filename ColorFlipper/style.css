@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    font-family: 'Apple Chancery', cursive;
+ }
+
+#pageTitle{
+    color:red;
+    text-align:left;
+    margin-bottom:5px;
+    margin-left:15px;
+
+}
+
+#wrapper{
+    border-top:3px solid black;
+    align-items:center;
+    justify-content:center;
+    display: flex;
+    height:90vh;
+    width: 100vw;
+}
+
+button{
+    cursor:pointer;
+    font-size: 28px;
+    background-color:rgb(219,54,54);
+    color:white;
+    letter-spacing:5px;
+    padding:5px 10px;
+    border-radius:7px;    
+    border:2px 3px;
+    border-style:double;
+}
+#result{
+    color:red;
+    float:right;
+    margin-right:15px;
+}
